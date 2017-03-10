@@ -1,0 +1,11 @@
+language: cpp
+sudo: required
+dist: trusty
+
+os: osx
+
+script:
+- cmake -H. -B_builds
+- cmake --build _builds/
+test
+./_build/tests -s
