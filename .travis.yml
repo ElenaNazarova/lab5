@@ -4,4 +4,4 @@ language: cpp
 script:
 - cmake -H. -B_builds
 - cmake --build _builds/
-- cmake ./_build/tests 
+- ./_build/tests 
