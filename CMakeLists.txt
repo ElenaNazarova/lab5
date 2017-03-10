@@ -1,3 +1,3 @@
-project(test)
+project(tests)
 
-add_executable(Test main.cpp)
+add_executable(tests main.cpp)
